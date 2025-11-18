@@ -1,7 +1,5 @@
-body{
-    background-color: darkgrey;
-}
-
-.profile-container{
-    width:200px;
+#profile1-img {
+  max-height: 200px; /* Or any other desired value like 100% or 50vh */
+  width: auto; /* Maintain aspect ratio */
+  object-fit: contain; /* Or 'cover' depending on desired behavior */
 }
